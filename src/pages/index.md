@@ -2,9 +2,7 @@
 templateKey: home-page
 title: ABS Pysch
 heading: Our Services
-description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
+description: We offer a bunch of crap
 offerings:
   blurbs:
     - image: /img/coffee.png
