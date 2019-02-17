@@ -1,6 +1,6 @@
 ---
 templateKey: home-page
-title: ABS Pysch
+title: Associates in Behavioral Science
 missionHeading: Our Mission
 missionDescription: >-
   It is the mission of Associates in Behavioral Science to provide high quality
