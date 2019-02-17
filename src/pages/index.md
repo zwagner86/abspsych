@@ -1,9 +1,11 @@
 ---
 templateKey: home-page
 title: ABS Pysch
-heading: Our Services
-description: We offer a bunch of crap
-offerings:
+missionHeading: Our Mission
+missionDescription: We offer a bunch of crap
+serviceHeading: Our Services
+serviceDescription: We offer a bunch of crap
+serviceOfferings:
   blurbs:
     - image: /img/coffee.png
       text: >
@@ -55,6 +57,10 @@ offerings:
         odio vitae, bibendum auctor lacus. Suspendisse potenti.  In tempor,
         massa quis euismod convallis, felis elit sodales urna, at aliquet mi
         elit auctor  risus.
+experienceHeading: Our Experience
+experienceDescription: We offer a bunch of crap
+practiceHeading: Our Practice
+practiceDescription: We offer a bunch of crap
 testimonials:
   - author: Vaibhav Sharma
     quote: >-
@@ -66,7 +72,7 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Home | Gatsby Starter Business
+meta_title: Home | ABS Psych
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

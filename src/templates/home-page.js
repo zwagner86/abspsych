@@ -11,9 +11,15 @@ const HomePage = ({data}) => {
       title={frontmatter.title}
       meta_title={frontmatter.meta_title}
       meta_description={frontmatter.meta_description}
-      heading={frontmatter.heading}
-      description={frontmatter.description}
-      offerings={frontmatter.offerings}
+      missionHeading={frontmatter.missionHeading}
+      missionDescription={frontmatter.missionDescription}
+      serviceHeading={frontmatter.serviceHeading}
+      serviceDescription={frontmatter.serviceDescription}
+      serviceOfferings={frontmatter.serviceOfferings}
+      experienceHeading={frontmatter.experienceHeading}
+      experienceDescription={frontmatter.experienceDescription}
+      practiceHeading={frontmatter.practiceHeading}
+      practiceDescription={frontmatter.practiceDescription}
       testimonials={frontmatter.testimonials}
     />
   )
@@ -36,14 +42,20 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        heading
-        description
-        offerings {
+        missionHeading
+        missionDescription
+        serviceHeading
+        serviceDescription
+        serviceOfferings {
           blurbs {
             image
             text
           }
         }
+        experienceHeading
+        experienceDescription
+        practiceHeading
+        practiceDescription
         testimonials {
           author
           quote

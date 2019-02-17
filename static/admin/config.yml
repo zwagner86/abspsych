@@ -16,9 +16,15 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Offerings, name: offerings, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Mission Heading, name: missionHeading, widget: string}
+          - {label: Mission Description, name: missionDescription, widget: string}
+          - {label: Service Heading, name: serviceHeading, widget: string}
+          - {label: Service Description, name: serviceDescription, widget: string}
+          - {label: Service Offerings, name: serviceOfferings, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+          - {label: Experience Heading, name: experienceHeading, widget: string}
+          - {label: Experience Description, name: experienceDescription, widget: string}
+          - {label: Practice Heading, name: practiceHeading, widget: string}
+          - {label: Practice Description, name: practiceDescription, widget: string}
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: "Meta Title", name: "meta_title", widget: "string"}
           - {label: "Meta Description", name: "meta_description", widget: "text"}

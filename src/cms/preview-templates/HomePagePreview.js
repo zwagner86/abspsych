@@ -14,9 +14,15 @@ const HomePagePreview = ({ entry, getAsset }) => {
       title={entry.getIn(['data', 'title'])}
       meta_title={entry.getIn(['data', 'meta_title'])}
       meta_description={entry.getIn(['data', 'meta_description'])}
-      heading={entry.getIn(['data', 'heading'])}
-      description={entry.getIn(['data', 'description'])}
-      offerings={{ blurbs }}
+      missionHeading={entry.getIn(['data', 'missionHeading'])}
+      missionDescription={entry.getIn(['data', 'missionDescription'])}
+      serviceHeading={entry.getIn(['data', 'serviceHeading'])}
+      serviceDescription={entry.getIn(['data', 'serviceDescription'])}
+      serviceOfferings={{ blurbs }}
+      experienceHeading={entry.getIn(['data', 'experienceHeading'])}
+      experienceDescription={entry.getIn(['data', 'experienceDescription'])}
+      practiceHeading={entry.getIn(['data', 'practiceHeading'])}
+      practiceDescription={entry.getIn(['data', 'practiceDescription'])}
       testimonials={testimonials}
     />
   )

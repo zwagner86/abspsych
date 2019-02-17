@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: 'vaibhaved',
   userLocation: 'Delhi NCR, India',
   userDescription: '',
-  copyright: 'Copyright © Associates of Behavior Science 2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © Associates in Behavioral Science 2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#016239', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
