@@ -9,7 +9,7 @@ missionDescription: >-
   provider, and exceeding expectations are the goals toward which we
   continuously strive.
 serviceHeading: Our Services
-serviceDescription: 'We offer a wide range of services:'
+serviceDescription: 'We offer a wide range of mental health services:'
 serviceOfferings:
   blurbs:
     - image: /img/coffee.png
