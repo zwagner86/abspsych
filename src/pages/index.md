@@ -1,10 +1,15 @@
 ---
 templateKey: home-page
-title: ABS Pysch
+title: Associates in Behavioral Science
 missionHeading: Our Mission
-missionDescription: We offer a bunch of crap
+missionDescription: >-
+  It is the mission of Associates in Behavioral Science to provide high quality
+  behavioral healthcare and exceptional responsiveness to our clients and other
+  customers.  Delivering the highest quality service, becoming your preferred
+  provider, and exceeding expectations are the goals toward which we
+  continuously strive.
 serviceHeading: Our Services
-serviceDescription: We offer a bunch of crap
+serviceDescription: 'We offer a wide range of services:'
 serviceOfferings:
   blurbs:
     - image: /img/coffee.png
@@ -58,9 +63,24 @@ serviceOfferings:
         massa quis euismod convallis, felis elit sodales urna, at aliquet mi
         elit auctor  risus.
 experienceHeading: Our Experience
-experienceDescription: We offer a bunch of crap
+experienceDescription: >-
+  The professionals at ABS have extensive treatment experience with all clinical
+  populations, including children, adolescents, and adults, as well as special
+  populations -- geropsychiatric, dual diagnosis, and individuals with chronic
+  mental illness.  Associates in Behavioral Science offers various outpatient
+  mental health services. Please review our website and call to schedule an
+  appointment with one of our therapists. We offer therapy appointments during
+  our listed service hours six days a week. A few of our therapists offer
+  evening hours after our main office has closed. Call to schedule your first
+  counseling appointment.
 practiceHeading: Our Practice
-practiceDescription: We offer a bunch of crap
+practiceDescription: >-
+  Associates in Behavioral Science is an interdisciplinary practice comprised of
+  a board certified psychiatrist, licensed clinical psychologists, a licensed
+  clinical social worker, a licensed clinical professional counselor, and a
+  pharmacist.  We provide all levels of outpatient treatment for psychiatric
+  disorders and substance abuse problems and can easily make referrals as needed
+  for inpatient treatment.
 testimonials:
   - author: Vaibhav Sharma
     quote: >-
