@@ -19,12 +19,12 @@ const HomePageTemplate = ({
   meta_description,
   testimonials,
 }) => (
-  <div>
+  <div className='Home'>
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-primary is-bold'>
+    <section className='hero is-medium'>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -89,7 +89,6 @@ HomePageTemplate.propTypes = {
   practiceHeading: PropTypes.string,
   practiceDescription: PropTypes.string,
   testimonials: PropTypes.array,
-
 }
 
 export default HomePageTemplate

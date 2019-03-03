@@ -28,7 +28,6 @@ const NavBar = ({toggleNavbar, isActive}) => (
           </button>
         </div>
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
-
           <div className='navbar-end'>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
             <Link className='navbar-item' to='/about'>

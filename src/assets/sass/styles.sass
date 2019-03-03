@@ -11,6 +11,37 @@ $footer-padding: 3rem 1.5rem
 nav
   border-bottom: lightgray solid 0.1vmin
 
+  .navbar-burger
+    border: none
+    border-radius: 0
+
+    &:focus,
+    &:hover
+      box-shadow: none !important
+
+.Home
+  .hero
+    background-image: url('/img/waterfall.jpg')
+    background-size: cover
+
+    .section
+      background: rgba(0,0,0,0.5)
+      text-align: center
+      padding: 2rem 1.5rem
+    
+    .title
+      color: white
+      font-size: 1.7rem
+
+      +tablet
+        font-size: 2rem
+
+      +desktop
+        font-size: 2.5rem
+
+      +fullhd
+        font-size: 3rem
+
 .content .taglist
   list-style: none
   margin-bottom: 0
